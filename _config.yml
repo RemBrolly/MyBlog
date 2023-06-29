@@ -109,5 +109,5 @@ deploy:
   ignore_hidden: false # 添加这个属性值为false
   repo: 
     gitee: git@gitee.com:tao-renjian/hexo-blog.git,master
-    github: git@github.com:RemBrolly/MyBlog.git,gh-pages
+    github: git@github.com:RemBrolly/MyBlog.git,gh-page
 # test
