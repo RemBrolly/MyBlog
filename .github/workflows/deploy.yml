@@ -77,7 +77,7 @@ jobs:
         run: |
           npm install hexo-cli -g
           npm install
-          npm install hexo-deployer-git --save
+      
           # 根据你安装的组件进行安装
           # npm uninstall hexo-generator-index --save
           # npm install hexo-baidu-url-submit hexo-generator-index2 hexo-symbols-count-time hexo-blog-encrypt hexo-deployer-git --save
