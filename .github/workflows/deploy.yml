@@ -87,7 +87,7 @@ jobs:
         run: |
           hexo clean
           hexo d
-		  
+
       # 以下为发布到gitee
       - name: Sync to Gitee
         uses: wearerequired/git-mirror-action@master
