@@ -110,3 +110,4 @@ deploy:
   repo: 
     gitee: git@gitee.com:tao-renjian/my-blog.git,master
     github: git@github.com:RemBrolly/MyBlog.git,gh-pages
+# test
