@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: "记得带伞's 博客"
 subtitle: ''
 description: ''
 keywords:
@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://gitee.com/tao-renjian/hexo-blog
-root: /hexo-blog
+url: https://gitee.com/rembrolly/RemBrolly
+root: /RemBrolly
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -108,6 +108,6 @@ deploy:
   type: git
   ignore_hidden: false # 添加这个属性值为false
   repo: 
-    gitee: git@gitee.com:tao-renjian/hexo-blog.git,master
+    gitee: git@gitee.com:rembrolly/RemBrolly.git,master
     github: git@github.com:RemBrolly/MyBlog.git,gh-page
 
