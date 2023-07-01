@@ -4,9 +4,13 @@
 # see https://butterfly.js.org/posts/4aa8abbe/##導航欄設置-Navigation-bar-settings
 # --------------------------------------
 
+# 导航栏配置项
 nav:
-  logo: # image
+# 图标
+  logo: /img/umbrella.svg
+  # 是否显示网站标题
   display_title: true
+  # 是否固定导航栏
   fixed: false # fixed navigation bar
 
 # Menu 目录，即博客右上角的导航栏
@@ -24,42 +28,50 @@ menu:
     - butterfly || https://github.com/jerryc127/hexo-theme-butterfly/ || fa fa-heart
 
 
-# Code Blocks (代碼相關)
+# Code Blocks (代码相关)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: pale night #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: false # unit: px
+highlight_height_limit: 400 # unit: px
 code_word_wrap: false
 
 # Social Settings (社交圖標設置)
 # formal:
 #   icon: link || the description || color
+# 社交图标
 social:
+  # 书写格式如下,支持 font-awesome v6 图标
+  # 第一个为图标class，第二个为图标跳转链接，第三个为鼠标悬浮时图标描述文字，第四个为图标颜色
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  # fa-brands fa-github: https://github.com/RemBrolly || Github || '#304880'
+
 
 # Image (圖片設置)
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+# 图像存放目录:themes/butterfly/source/img
+favicon: /img/umbrella.svg
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+# 图像存放目录:themes/butterfly/source/img
+  img: /img/logo.jpg
+  # 头像转动
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img:
+index_img: /img/background.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: /img/background1.jpg
 
 # The banner image of archive page
 archive_img:
