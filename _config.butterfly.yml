@@ -9,17 +9,20 @@ nav:
   display_title: true
   fixed: false # fixed navigation bar
 
-# Menu 目錄
+# Menu 目录，即博客右上角的导航栏
 menu:
-  # Home: / || fas fa-home
-  # Archives: /archives/ || fas fa-archive
-  # Tags: /tags/ || fas fa-tags
-  # Categories: /categories/ || fas fa-folder-open
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
-  # About: /about/ || fas fa-heart
+  首页: / || fa fa-home
+  归档: /archives/ || fa fa-archive
+  标签: /tags/ || fa fa-tags
+  分类: /categories/ || fa fa-folder-open
+  留言板: /messageboard/ || fa fa-paper-plane
+  友链: /link/ || fa fa-link
+  日志: /timeline/ || fa fa-bell
+  菜单 || fa fa-list:
+    - about || /about/ || fa fa-sitemap
+    - myself || /myself/ || fa fa-id-card
+    - butterfly || https://github.com/jerryc127/hexo-theme-butterfly/ || fa fa-heart
+
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -98,7 +101,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
+  enable: true
   subtitle: 'Page Not Found'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
@@ -749,7 +752,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Customize typed.js (配置typed.js)
@@ -764,6 +767,8 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
+    - 欢迎来到我的小世界，希望能帮助到你！
+    - Welcome to my little world, Hoping to help you!
 
 # Loading Animation (加載動畫)
 preloader:
