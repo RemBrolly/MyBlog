@@ -68,10 +68,10 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /img/background.jpg
+index_img: https://gitee.com/rembrolly/blog-img/raw/master/img-20230702/playcomputer.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: /img/background1.jpg
+default_top_img: https://gitee.com/rembrolly/blog-img/raw/master/img-20230702/k-on.jpg
 
 # The banner image of archive page
 archive_img:
