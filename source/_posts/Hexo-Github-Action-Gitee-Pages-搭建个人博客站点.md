@@ -13,6 +13,9 @@ tags:
 categories:
   - 教程
 
+# 文章封面(这里的优先级笔主题配置中默认的封面高)
+cover:
+
 ---
 
 # Hexo + Github Action + Gitee Pages 搭建个人博客站点

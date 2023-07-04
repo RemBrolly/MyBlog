@@ -68,10 +68,10 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://s2.loli.net/2023/07/04/US4jERT7dtH5DGg.jpg
+index_img: /img/playcomputer.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://s2.loli.net/2023/07/04/wAINV3LrtnRuevx.jpg
+default_top_img: /img/k-on.jpg
   # - https://gitee.com/rembrolly/blog-img/raw/master/img-20230702/k-on(small).jpg
 
 # The banner image of archive page
